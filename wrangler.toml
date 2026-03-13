@@ -1,5 +1,13 @@
-name = "bexcodex"
+name = "webvpn"
 compatibility_date = "2025-11-22"
+routes = [
+  
+  { pattern = "api24-normal.tiktokv.com.webvpn.benx.workers.dev", custom_domain = true },  
+  { pattern = "ava.game.naver.com.webvpn.benx.workers.dev", custom_domain = true },  
+  { pattern = "cache.netflix.com.webvpn.benx.workers.dev", custom_domain = true },  
+  { pattern = "webvpn.benx.workers.dev", custom_domain = true },  
+  
+  ]
 
 [assets]
 directory = "./dist"
